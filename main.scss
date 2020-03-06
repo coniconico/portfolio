@@ -103,10 +103,11 @@ header {
 
 
 // Style des liens
-a {
+a:link {
     color: white !important;
     text-decoration: none;
 }
+
 a:visited {
     color: white;
 }

@@ -84,7 +84,7 @@ header {
 }
 
 header a:hover {
-  color: #DEC70E;
+  color: #DEC70E !important;
   font-size: 1.03em;
 }
 
@@ -107,7 +107,8 @@ header ul li {
   margin-right: 1em;
 }
 
-a {
+a:link {
+  color: white !important;
   text-decoration: none;
 }
 
