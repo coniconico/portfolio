@@ -302,7 +302,7 @@ section {
 }
 
 #mescreations .topnav ul a:hover {
-  color: #DEC70E;
+  color: #DEC70E !important;
   font-size: 105%;
   padding: 0em 0.2em;
 }
