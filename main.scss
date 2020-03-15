@@ -262,6 +262,22 @@ section  {
     }  
 }
 
+// style de puces .enSavoirPlus
+.right ul {
+    li::after {
+    content: "";
+    background-image: url(img/puce.svg);
+    transform: rotate(180deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: .7em;
+    padding-inline-end: 1.5em;
+    }
+}
+
+
 
 // Section .mesCréations
 
@@ -410,20 +426,6 @@ footer {
     line-height: 5em;
 }
 
-// style de puces .enSavoirPlus
-.right ul {
-    li::after {
-    content: "";
-    background-image: url(img/puce.svg);
-    transform: rotate(180deg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    height: .7em;
-    padding-inline-end: 1.5em;
-    }
-}
 
 // styles de puces .mesCréations
 #mescreations .topnav ul {
@@ -457,6 +459,13 @@ footer {
         }
     }
 
+    //Accueil
+    #accueil {
+        p{
+            padding: 1em 1em;
+        }
+    }
+
 
     //En savoir plus
     #ensavoirplus {
@@ -469,7 +478,7 @@ footer {
             padding: 0;
         }
         ul {
-            font-size: .85em;
+            columns: 1;
         }
         }
     }

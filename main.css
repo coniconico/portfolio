@@ -298,6 +298,20 @@ section {
   text-align: right;
 }
 
+.right ul li::after {
+  content: "";
+  background-image: url(img/puce.svg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: .7em;
+  -webkit-padding-end: 1.5em;
+          padding-inline-end: 1.5em;
+}
+
 #mescreations .topnav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,20 +476,6 @@ footer {
   line-height: 5em;
 }
 
-.right ul li::after {
-  content: "";
-  background-image: url(img/puce.svg);
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  height: .7em;
-  -webkit-padding-end: 1.5em;
-          padding-inline-end: 1.5em;
-}
-
 #mescreations .topnav ul li::before {
   content: "{  ";
   font-weight: 500;
@@ -503,6 +503,9 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #accueil p {
+    padding: 1em 1em;
+  }
   #ensavoirplus .inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -518,7 +521,8 @@ footer {
     padding: 0;
   }
   #ensavoirplus .inner ul {
-    font-size: .85em;
+    -webkit-columns: 1;
+            columns: 1;
   }
   #mescreations .inner > *:target {
     display: -webkit-box;
