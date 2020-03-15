@@ -482,9 +482,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  a:target {
-    color: white;
-  }
   section {
     padding: 3em 1.5em;
   }

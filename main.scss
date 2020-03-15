@@ -445,10 +445,7 @@ footer {
 //VERSION MOBILE
 
 @media only screen and (max-width: 500px) {
-    a:target {
-        color: white;
-    }
-
+ 
     section {
         padding: 3em 1.5em;
     }
@@ -462,13 +459,6 @@ footer {
         li {
             margin: 0 1.5vw;
             }
-    }
-
-    //Accueil
-    #accueil {
-        p {
-           
-        }
     }
 
 
@@ -508,8 +498,6 @@ footer {
         width: 90vw;
         }
 }
-
-
 
 
 
