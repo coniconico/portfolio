@@ -75,6 +75,7 @@ header {
   line-height: 1.7em;
   height: 1.7em;
   background: #4091ad;
+  z-index: 1;
   color: white;
   font-size: 1.1em;
   font-weight: 800;
