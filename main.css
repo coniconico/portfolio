@@ -493,18 +493,17 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   #header h1 {
     display: none;
   }
-  #header ul {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  #header li {
+    margin: 0 1.5vw;
   }
   #accueil p {
     padding: 1em 1em;
+    line-height: 1.3em;
   }
   #ensavoirplus .inner {
     display: -webkit-box;

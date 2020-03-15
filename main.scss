@@ -449,19 +449,20 @@ footer {
     //MENU TOP
     #header {
         justify-content: center;
-        font-size: 1em;
+        font-size: 1.1em;
         h1 {
          display: none;
         }
-        ul {
-            justify-content: center;
-        }
+        li {
+            margin: 0 1.5vw;
+            }
     }
 
     //Accueil
     #accueil {
         p{
             padding: 1em 1em;
+            line-height: 1.3em;
         }
     }
 
