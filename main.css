@@ -249,8 +249,7 @@ section {
 }
 
 #ensavoirplus .inner p {
-  padding: 0 2em;
-  margin: 0 .5em;
+  padding-right: 1em;
   font-size: 1.2em;
   line-height: 1.5em;
 }
@@ -317,9 +316,6 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 2em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -354,8 +350,6 @@ section {
 
 #mescreations p {
   display: inline-block;
-  vertical-align: text-top;
-  padding: 1em;
   width: 50%;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -489,6 +483,9 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  section {
+    padding: 3em 1.5em;
+  }
   #header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -553,8 +550,8 @@ footer {
 body {
   background: linear-gradient(-45deg, #00414b, #025f6d, #23a6d5, #25d1a9);
   background-size: 400% 400%;
-  -webkit-animation: gradient 5s ease infinite;
-          animation: gradient 5s ease infinite;
+  -webkit-animation: gradient 10s ease infinite;
+          animation: gradient 10s ease infinite;
 }
 
 @-webkit-keyframes gradient {
