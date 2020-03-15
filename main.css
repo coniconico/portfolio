@@ -214,12 +214,26 @@ h3::after {
   width: 100%;
 }
 
-#ensavoirplus, #accueil {
-  height: 77vh;
+#accueil {
+  padding: 0;
+  height: 100vh;
 }
 
 section {
-  padding: 7% 10%;
+  padding: 3em 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
 }
 
@@ -289,9 +303,9 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 2em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -429,7 +443,7 @@ section {
   -webkit-box-shadow: -12px 12px 24px #025f6d,  12px -12px 24px #02899d;
           box-shadow: -12px 12px 24px #025f6d,  12px -12px 24px #02899d;
   padding: 0.3em 1.1em;
-  color: #DEC70E;
+  color: #DEC70E !important;
   font-weight: 800;
 }
 
@@ -472,6 +486,64 @@ footer {
   content: "  }";
   font-weight: 500;
   font-size: 1.3em;
+}
+
+@media only screen and (max-width: 500px) {
+  #header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1em;
+  }
+  #header h1 {
+    display: none;
+  }
+  #header ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #ensavoirplus .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #ensavoirplus .inner p {
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 0;
+  }
+  #ensavoirplus .inner ul {
+    font-size: .85em;
+  }
+  #mescreations .inner > *:target {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #mescreations .inner > *:target p {
+    width: 100%;
+  }
+  #mescreations .topnav ul {
+    margin-bottom: 0;
+  }
+  .img0 {
+    width: 300px;
+  }
 }
 
 body {
