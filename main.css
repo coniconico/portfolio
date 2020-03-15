@@ -320,6 +320,7 @@ section {
   margin-bottom: 2em;
   text-transform: uppercase;
   font-weight: 600;
+  padding-left: 1em;
 }
 
 #mescreations .topnav ul a, #mescreations .topnav ul li {

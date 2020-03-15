@@ -285,11 +285,10 @@ section  {
     margin-bottom: 2em;
     text-transform: uppercase;
     font-weight: 600;
-
+    padding-left: 1em;
     a, li {
         transition: all 200ms ease-in-out;
     }
-
     a:hover {
     color: #DEC70E !important;
     font-size: 105%;
