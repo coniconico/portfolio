@@ -320,7 +320,6 @@ section {
   margin-bottom: 2em;
   text-transform: uppercase;
   font-weight: 600;
-  padding-left: 1em;
 }
 
 #mescreations .topnav ul a, #mescreations .topnav ul li {
@@ -416,6 +415,7 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  line-height: 1.4em;
 }
 
 #contact h3 {
@@ -541,12 +541,14 @@ footer {
   }
   #mescreations .inner > *:target p {
     width: 100%;
+    padding-left: 1em;
   }
   #mescreations .topnav ul {
     margin-bottom: 0;
+    padding-left: 2em;
   }
   .img0 {
-    width: 300px;
+    width: 90vw;
   }
 }
 

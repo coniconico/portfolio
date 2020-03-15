@@ -285,7 +285,7 @@ section  {
     margin-bottom: 2em;
     text-transform: uppercase;
     font-weight: 600;
-    padding-left: 1em;
+
     a, li {
         transition: all 200ms ease-in-out;
     }
@@ -374,7 +374,8 @@ section  {
 #contact {
     display: flex;
     flex-direction: column;
-    text-align: center;   
+    text-align: center;
+    line-height: 1.4em;   
     h3 {
         flex-direction: row;
     }
@@ -489,14 +490,16 @@ footer {
             align-items: center;
             p {
                 width: 100%;
+                padding-left: 1em;
             }
         }
 
         #mescreations .topnav ul {
         margin-bottom: 0;
+        padding-left: 2em;
         }
     .img0 {
-        width: 300px;
+        width: 90vw;
         }
 }
 
