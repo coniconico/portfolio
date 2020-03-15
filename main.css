@@ -230,12 +230,6 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   overflow: hidden;
 }
 
@@ -313,7 +307,7 @@ section {
           padding-inline-end: 1.5em;
 }
 
-#mescreations .topnav ul {
+#mescreations ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,18 +316,18 @@ section {
   font-weight: 600;
 }
 
-#mescreations .topnav ul a, #mescreations .topnav ul li {
+#mescreations ul a, #mescreations ul li {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
 
-#mescreations .topnav ul a:hover {
+#mescreations ul a:hover {
   color: #DEC70E !important;
   font-size: 105%;
   padding: 0em 0.2em;
 }
 
-#mescreations .topnav ul li:hover {
+#mescreations ul li:hover {
   color: #DEC70E;
 }
 
@@ -473,13 +467,13 @@ footer {
   line-height: 5em;
 }
 
-#mescreations .topnav ul li::before {
+#mescreations ul li::before {
   content: "{  ";
   font-weight: 500;
   font-size: 1.3em;
 }
 
-#mescreations .topnav ul li::after {
+#mescreations ul li::after {
   content: "  }";
   font-weight: 500;
   font-size: 1.3em;
@@ -541,9 +535,9 @@ footer {
   }
   #mescreations .inner > *:target p {
     width: 100%;
-    padding-left: 1em;
+    padding: 1.5em 1.5em;
   }
-  #mescreations .topnav ul {
+  #mescreations ul {
     margin-bottom: 0;
     padding-left: 2em;
   }

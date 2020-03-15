@@ -202,8 +202,8 @@ section  {
     padding: 3em 3em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
     overflow: hidden;
 }
 #ensavoirplus, #contact {
@@ -280,12 +280,13 @@ section  {
 
 // Section .mesCréations
 
-#mescreations .topnav ul {
+
+#mescreations ul {
     display: flex;
+
     margin-bottom: 2em;
     text-transform: uppercase;
     font-weight: 600;
-
     a, li {
         transition: all 200ms ease-in-out;
     }
@@ -423,7 +424,7 @@ footer {
 
 
 // styles de puces .mesCréations
-#mescreations .topnav ul {
+#mescreations ul {
     li::before {
         content: "{  ";
         font-weight: 500;
@@ -492,11 +493,11 @@ footer {
             align-items: center;
             p {
                 width: 100%;
-                padding-left: 1em;
+                padding: 1.5em 1.5em;
             }
         }
 
-        #mescreations .topnav ul {
+        #mescreations ul {
         margin-bottom: 0;
         padding-left: 2em;
         }
