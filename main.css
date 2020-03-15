@@ -521,6 +521,7 @@ footer {
     padding: 0;
   }
   #ensavoirplus .inner ul {
+    font-size: 1.2em;
     -webkit-columns: 1;
             columns: 1;
   }
