@@ -156,7 +156,9 @@ a:visited {
 #accueil p {
   padding: 7% 0;
   font-size: 2em;
-  line-height: 1.1em;
+  letter-spacing: .1em;
+  line-height: 1.3em;
+  padding: 1em 1em;
 }
 
 #accueil strong {
@@ -480,6 +482,9 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  a:target {
+    color: white;
+  }
   section {
     padding: 3em 1.5em;
   }
@@ -494,10 +499,6 @@ footer {
   }
   #header li {
     margin: 0 1.5vw;
-  }
-  #accueil p {
-    padding: 1em 1em;
-    line-height: 1.3em;
   }
   #ensavoirplus .inner {
     display: -webkit-box;
@@ -539,7 +540,6 @@ footer {
   }
   #mescreations ul {
     margin-bottom: 0;
-    padding-left: 2em;
   }
   .img0 {
     width: 90vw;
