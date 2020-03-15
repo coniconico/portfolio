@@ -551,10 +551,10 @@ footer {
 }
 
 body {
-  background: linear-gradient(-45deg, #00414b, #025f6d, #23a6d5, #2aecbf);
+  background: linear-gradient(-45deg, #00414b, #025f6d, #23a6d5, #25d1a9);
   background-size: 400% 400%;
-  -webkit-animation: gradient 10s ease infinite;
-          animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 5s ease infinite;
+          animation: gradient 5s ease infinite;
 }
 
 @-webkit-keyframes gradient {
