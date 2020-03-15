@@ -490,7 +490,7 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 1.1em;
+    font-size: 4.8vw;
   }
   #header h1 {
     display: none;
