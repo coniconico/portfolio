@@ -131,8 +131,8 @@ a:visited {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0))), url("img/acceuil.jpg");
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("img/acceuil.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0))), url("img/acceuil.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("img/acceuil.jpg");
   background-size: cover;
   background-position: center;
 }
