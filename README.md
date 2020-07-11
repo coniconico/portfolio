@@ -1,6 +1,4 @@
 # portfolio
-Personal Portfolio 
-
 These are my first lines of code since 2010...
 
 I learned HTML & CSS (along with web oriented graphic and communications skills) in my first years of university and I tought that programming was really not for me.
